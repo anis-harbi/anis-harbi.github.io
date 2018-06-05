@@ -3014,7 +3014,7 @@ a.button.primary.subtle:hover {
 button.create,
 a.button.create {
   color: white;
-  background: #0bda50;
+  background: #21fe18;
   -webkit-transition: 0.2s background, 0.2s -webkit-transform;
   transition: 0.2s background, 0.2s -webkit-transform;
   transition: 0.2s background, 0.2s transform;
@@ -3024,13 +3024,13 @@ a.button.create {
 }
 button.create:hover,
 a.button.create:hover {
-  background: #0df259;
+  background: #39fe32;
 }
 button.create:active,
 a.button.create:active,
 button.create.active,
 a.button.create.active {
-  background: #0ac247;
+  background: #0afc01;
 }
 button.create.subtle,
 a.button.create.subtle {
@@ -3042,7 +3042,7 @@ a.button.create.subtle {
 }
 button.create.subtle:hover,
 a.button.create.subtle:hover {
-  color: #0ac247;
+  color: #0afc01;
 }
 .theme-dark button.create.subtle,
 .theme-dark a.button.create.subtle {
@@ -3051,13 +3051,61 @@ a.button.create.subtle:hover {
 }
 .theme-dark button.create,
 .theme-dark a.button.create {
-  background: #0ac247;
+  background: #0afc01;
   color: white;
 }
 .theme-dark button.create:hover,
 .theme-dark a.button.create:hover {
   color: white;
-  background: #0bda50;
+  background: #21fe18;
+}
+button.createDefault,
+a.button.createDefault {
+  color: white;
+  background: rgba(13, 13, 13, 0.495);
+  -webkit-transition: 0.2s background, 0.2s -webkit-transform;
+  transition: 0.2s background, 0.2s -webkit-transform;
+  transition: 0.2s background, 0.2s transform;
+  transition: 0.2s background, 0.2s transform, 0.2s -webkit-transform;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+button.createDefault:hover,
+a.button.createDefault:hover {
+  background: rgba(26, 26, 26, 0.495);
+}
+button.createDefault:active,
+a.button.createDefault:active,
+button.createDefault.active,
+a.button.createDefault.active {
+  background: rgba(0, 0, 0, 0.495);
+}
+button.createDefault.subtle,
+a.button.createDefault.subtle {
+  color: #4d4d4d;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+button.createDefault.subtle:hover,
+a.button.createDefault.subtle:hover {
+  color: rgba(0, 0, 0, 0.495);
+}
+.theme-dark button.createDefault.subtle,
+.theme-dark a.button.createDefault.subtle {
+  color: #999999;
+  background: none;
+}
+.theme-dark button.createDefault,
+.theme-dark a.button.createDefault {
+  background: rgba(0, 0, 0, 0.495);
+  color: white;
+}
+.theme-dark button.createDefault:hover,
+.theme-dark a.button.createDefault:hover {
+  color: white;
+  background: rgba(13, 13, 13, 0.495);
 }
 button.createLogic,
 a.button.createLogic {
@@ -5060,7 +5108,7 @@ body.theme-dark .cm-s-default .CodeMirror-matchingbracket {
 }
 #storyEditView .passageA.selected {
   border: 1px solid #6eaef7;
-  background: #e7f1fe;
+  background: rgba(0, 0, 0, 0.18);
 }
 #storyEditView .passageA.highlighted {
   border: 1px solid #f6f655;
